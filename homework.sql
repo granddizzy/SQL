@@ -1,3 +1,7 @@
+DROP DATABASE IF EXISTS homework;
+CREATE DATABASE homework;
+USE homework;
+
 DROP FUNCTION IF EXISTS format_seconds;
 DELIMITER //
 CREATE FUNCTION format_seconds(seconds INT)
